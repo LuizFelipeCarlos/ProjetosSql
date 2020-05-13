@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Consultas", "1-Consultas", "{E0D6C4BE-68B8-4758-9887-2AD542BB7622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Views", "2-Views", "{205C9239-BAEE-4BB9-8A0B-6640FF4425E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Stored Procedures", "4-Stored Procedures", "{37D07308-4DFF-4119-B875-579355AADE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Regra de Negocio", "5-Regra de Negocio", "{7DF067C4-945B-4426-AA7C-675A4A6C0659}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Consultas", "Consultas\Consultas.ssmssqlproj", "{0CD0EEF6-4D4B-4045-A6D2-F44FD6668771}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Views", "Views\Views.ssmssqlproj", "{B99EA119-4127-4BA4-8942-356A97CF832D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Stored Procedures", "Stored Procedures\Stored Procedures.ssmssqlproj", "{166A260B-EEAB-4A3D-B607-F5567A684F2F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Execução", "Execução\Execução.ssmssqlproj", "{FD9F87B8-6CEE-4E8D-A181-266E416ACDE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Tipo Dados", "3-Tipo Dados", "{14A75D94-0E7D-414A-8604-9986BFDF7D0B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Tipo Dados", "Tipo Dados\Tipo Dados.ssmssqlproj", "{F85E79D5-732C-446A-AF4C-5AC5E42CE2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD0EEF6-4D4B-4045-A6D2-F44FD6668771}.Default|Default.ActiveCfg = Default
+		{B99EA119-4127-4BA4-8942-356A97CF832D}.Default|Default.ActiveCfg = Default
+		{166A260B-EEAB-4A3D-B607-F5567A684F2F}.Default|Default.ActiveCfg = Default
+		{FD9F87B8-6CEE-4E8D-A181-266E416ACDE7}.Default|Default.ActiveCfg = Default
+		{091E5811-402F-4BE3-BFC1-E4033BCA950D}.Default|Default.ActiveCfg = Default
+		{F85E79D5-732C-446A-AF4C-5AC5E42CE2EF}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CD0EEF6-4D4B-4045-A6D2-F44FD6668771} = {E0D6C4BE-68B8-4758-9887-2AD542BB7622}
+		{B99EA119-4127-4BA4-8942-356A97CF832D} = {205C9239-BAEE-4BB9-8A0B-6640FF4425E6}
+		{166A260B-EEAB-4A3D-B607-F5567A684F2F} = {37D07308-4DFF-4119-B875-579355AADE27}
+		{FD9F87B8-6CEE-4E8D-A181-266E416ACDE7} = {7DF067C4-945B-4426-AA7C-675A4A6C0659}
+		{F85E79D5-732C-446A-AF4C-5AC5E42CE2EF} = {14A75D94-0E7D-414A-8604-9986BFDF7D0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34AF3B35-5445-4F78-BA31-4BA9E0DB7B03}
+	EndGlobalSection
+EndGlobal
